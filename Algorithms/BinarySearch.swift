@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BinarySearch.swift
 //  Algorithms
 //
 //  Created by Darragh on 11/1/17.
