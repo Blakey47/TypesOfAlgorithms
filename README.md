@@ -1,2 +1,3 @@
 # TypesOfAlgorithms
-Algorithms
+
+1. Binary Search
