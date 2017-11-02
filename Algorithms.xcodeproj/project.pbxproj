@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A705EE2E1FAB6492007D4133 /* FactorialsAndRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705EE2D1FAB6492007D4133 /* FactorialsAndRecursion.swift */; };
+		A705EE301FAB6872007D4133 /* MostCommonNameInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705EE2F1FAB6872007D4133 /* MostCommonNameInArray.swift */; };
 		A7C5597E1FAA50970091E283 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C5597D1FAA50970091E283 /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A705EE2D1FAB6492007D4133 /* FactorialsAndRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialsAndRecursion.swift; sourceTree = "<group>"; };
+		A705EE2F1FAB6872007D4133 /* MostCommonNameInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostCommonNameInArray.swift; sourceTree = "<group>"; };
 		A7C559781FAA50970091E283 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C5597D1FAA50970091E283 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +51,7 @@
 			children = (
 				A7C5597D1FAA50970091E283 /* BinarySearch.swift */,
 				A705EE2D1FAB6492007D4133 /* FactorialsAndRecursion.swift */,
+				A705EE2F1FAB6872007D4133 /* MostCommonNameInArray.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A705EE301FAB6872007D4133 /* MostCommonNameInArray.swift in Sources */,
 				A705EE2E1FAB6492007D4133 /* FactorialsAndRecursion.swift in Sources */,
 				A7C5597E1FAA50970091E283 /* BinarySearch.swift in Sources */,
 			);
