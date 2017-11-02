@@ -14,7 +14,6 @@ class BinarySearch: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(linearSearchForSearchValue(searchValue: 1, array: number))
         print(binarySearchForSearchValue(searchValue: 9, array: number))
         
     }
@@ -33,17 +32,16 @@ class BinarySearch: UIViewController {
                 return true
             }
             
+            if searchValue < middelValue {
+                rightIndex = middelValue - 1
+            }
+            
+            if searchValue > middleIndex {
+                leftIndex = middleIndex + 1
+            }
+            
         }
         
-        return false
-    }
-    
-    func linearSearchForSearchValue(searchValue: Int, array: [Int]) -> Bool {
-        for num in array {
-            if num == searchValue {
-                return true
-            }
-        }
         return false
     }
     
